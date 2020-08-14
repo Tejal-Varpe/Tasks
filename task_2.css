@@ -1,0 +1,69 @@
+*
+{
+  box-sizing:border-box;
+}
+
+.container-fluid
+{
+  display:grid;
+  height: 100%;
+}
+
+.card
+{
+  text-align: center; 
+}
+
+.col1, .col2, .col3
+{
+  border:1px solid lightgray;
+}
+
+textarea 
+{
+  width: 100%;
+  height: 90%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 18px;
+}
+
+button
+{
+  width : 100%;
+  background-color:lightblue;
+  border-radius: 4px;
+  margin-left:  auto; 
+  margin-right: auto;
+}
+
+.row 
+{
+  height : 380px; 
+}
+
+table 
+{
+  border-collapse: collapse;
+  width: 65%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+table, th 
+{
+  border: 1px solid lightgray; 
+}
+
+input
+{
+  width: 100%;
+}
+
+
+
+
